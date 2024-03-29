@@ -80,7 +80,7 @@ header .topnav .signup i {
   padding-left: 40px;
 }
 
-@media only screen and (max-width: 1238px) {
+@media only screen and (max-width: 992px) {
   header .topnav i {
     display: none !important;
   }
@@ -151,7 +151,7 @@ header .topnav .signup i {
   right: 5%;
 }
 
-@media only screen and (max-width: 1238px) {
+@media only screen and (max-width: 992px) {
   .mainsec .container {
     max-width: 100%;
   }
@@ -185,7 +185,7 @@ header .topnav .signup i {
   display: flex;
   gap: 106px;
 }
-@media only screen and (max-width: 1238px) {
+@media only screen and (max-width: 992px) {
   .brands .items {
     flex-wrap: wrap;
   }
@@ -255,7 +255,7 @@ header .topnav .signup i {
   border-radius: 62px;
 }
 
-@media only screen and (max-width: 1238px) {
+@media only screen and (max-width: 992px) {
   .arriwals .cards {
     flex-wrap: wrap;
   }
@@ -285,7 +285,7 @@ header .topnav .signup i {
   flex-direction: column;
 }
 
-@media only screen and (max-width: 1238px) {
+@media only screen and (max-width: 992px) {
   .dressstyle .box div {
     flex-wrap: wrap;
   }
