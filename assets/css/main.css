@@ -77,7 +77,7 @@ header .bottomnav .shopco .righticons {
   padding-left: 40px;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1238px) {
   header .topnav i {
     display: none;
   }
@@ -148,7 +148,7 @@ header .bottomnav .shopco .righticons {
   right: 5%;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1238px) {
   .mainsec .container {
     max-width: 100%;
   }
@@ -167,6 +167,7 @@ header .bottomnav .shopco .righticons {
     max-width: 100%;
   }
   .mainsec .main .features {
+    width: 300px;
     display: flex;
     justify-content: center;
   }
@@ -181,7 +182,7 @@ header .bottomnav .shopco .righticons {
   display: flex;
   gap: 106px;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1238px) {
   .brands .items {
     flex-wrap: wrap;
   }
@@ -251,7 +252,7 @@ header .bottomnav .shopco .righticons {
   border-radius: 62px;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1238px) {
   .arriwals .cards {
     flex-wrap: wrap;
   }
@@ -281,7 +282,7 @@ header .bottomnav .shopco .righticons {
   flex-direction: column;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1238px) {
   .dressstyle .box div {
     flex-wrap: wrap;
   }
