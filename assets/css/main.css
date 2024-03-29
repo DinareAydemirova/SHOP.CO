@@ -17,7 +17,6 @@ header .topnav {
   font-size: 14px;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 header .topnav .signup {
   display: flex;
@@ -26,52 +25,56 @@ header .topnav .signup {
 header .topnav .signup a {
   color: #ffffff;
 }
-header .bottomnav {
+header .topnav .signup i {
+  display: flex;
+  padding: 200px;
+}
+
+.bottomnav {
   height: 90px;
-  width: 100%;
   display: flex;
   align-items: center;
 }
-header .bottomnav .shopco {
+.bottomnav .shopco {
   display: flex;
   align-items: center;
 }
-header .bottomnav .shopco .fa-bars {
+.bottomnav .shopco .fa-bars {
   display: none;
 }
-header .bottomnav .shopco h1 {
+.bottomnav .shopco h1 {
   font-size: 32px;
   font-weight: 700;
 }
-header .bottomnav .shopco ul {
+.bottomnav .shopco ul {
   list-style: none;
   display: flex;
   padding: 0 40px;
   gap: 24px;
   font-size: 16px;
 }
-header .bottomnav .shopco .bar {
+.bottomnav .shopco .bar {
   width: 577px;
   height: 48px;
   position: relative;
 }
-header .bottomnav .shopco .bar input {
+.bottomnav .shopco .bar input {
   width: 100%;
   height: 100%;
   border-radius: 62px;
   border: none;
   background-color: #f0f0f0;
 }
-header .bottomnav .shopco .bar ::placeholder {
+.bottomnav .shopco .bar ::placeholder {
   padding-left: 52px;
 }
-header .bottomnav .shopco .bar .fa-magnifying-glass {
+.bottomnav .shopco .bar .fa-magnifying-glass {
   position: absolute;
   z-index: 2;
   top: 27%;
   right: 94%;
 }
-header .bottomnav .shopco .righticons {
+.bottomnav .shopco .righticons {
   display: flex;
   gap: 14px;
   padding-left: 40px;
@@ -79,7 +82,7 @@ header .bottomnav .shopco .righticons {
 
 @media only screen and (max-width: 1238px) {
   header .topnav i {
-    display: none;
+    display: none !important;
   }
   header .bottomnav ul li {
     display: none;
